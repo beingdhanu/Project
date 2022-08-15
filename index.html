@@ -183,10 +183,18 @@ font-size: 14px;
                     <li><a href="">Account</a></li>
                     <li><a href="">Log In</a></li>
                     <li><a href="">Sign Up</a></li>
-    
-    
-    
-                </ul>
+                    </il>
+                    <script>
+                        let a = document.getElementById("email").value;
+                        let b = document.getElementById("pswd").value;
+                        if(a.match(/[^A-Za-z0-9]/g){
+                           alert("good");
+                        }
+                        else{
+                            alert("re-enter");
+                        }
+                        }
+                    </script>
             </nav>
             <img src="i4.png" width="30px" height="30px">
         </div>
